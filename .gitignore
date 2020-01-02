@@ -1,0 +1,16 @@
+*.synctex.gz
+*.aux
+*.log
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.glg
+*.glo
+*.gls
+*.ist
+*.toc
+*/DoW.pdf
+*/Article.pdf
+
