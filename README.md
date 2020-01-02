@@ -1,0 +1,1 @@
+"# Programozasi-nyelvek-es-paradigmak" 
