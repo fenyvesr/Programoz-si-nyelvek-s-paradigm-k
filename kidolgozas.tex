@@ -1,0 +1,52 @@
+\documentclass[11 pt,a4paper]{article}
+\usepackage[margin=2.5cm]{geometry} 
+\usepackage[T1]{fontenc}     % belső kódrendszer beállítása
+\usepackage[utf8]{inputenc}  % input kódolós
+\usepackage[magyar]{babel}   % nyelv
+
+\usepackage{listings,lstautogobble}
+\usepackage{xcolor}
+
+\definecolor{RoyalBlue}{cmyk}{1, 0.50, 0, 0}
+
+\lstset{language=Java,
+	keywordstyle=\color{RoyalBlue},
+	basicstyle=\normalsize\ttfamily,
+	commentstyle=\ttfamily\itshape\color{gray},
+	stringstyle=\ttfamily,
+	showstringspaces=false,
+	breaklines=true,
+	frameround=ffff,
+	frame=single,
+	rulecolor=\color{black},
+	tabsize=2, 
+	autogobble=true
+}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\renewcommand{\thesubsection}{\arabic{subsection}.}
+\makeatletter
+\def\@seccntformat#1{\@ifundefined{#1@cntformat}%
+	{\csname the#1\endcsname\quad}%    default
+	{\csname #1@cntformat\endcsname}}% enable individual control
+\newcommand\section@cntformat{}     % section level 
+\makeatother
+
+\title{Programozási nyelvek és paradigmák}
+\author{
+	Fenyvesi, Róbert\\
+	\texttt{fenyvesr@gmail.com}
+}
+
+\begin{document}
+\maketitle
+\newpage
+
+\input{elmeleti_kerdesek.tex}
+
+\end{document}

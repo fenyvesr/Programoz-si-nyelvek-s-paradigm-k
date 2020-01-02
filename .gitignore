@@ -11,6 +11,7 @@
 *.gls
 *.ist
 *.toc
-*/DoW.pdf
-*/Article.pdf
+*.out
+*/elmeleti_kerdesek.pdf
+*/kidolgozas.pdf
 
